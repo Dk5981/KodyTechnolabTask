@@ -17,12 +17,10 @@ public class KeithNumber {
 		 * Counts the digits of a number variable and stores it to the count variable.
 		 */
 		String length = String.valueOf(number);
-
 		int count = Integer.valueOf(length.length());
 
 		/* Initilize rem variable to 0 which stores the reminder of number variable. */
 		int rem = 0;
-
 		/* Declare array of size count variable. */
 		int arr[] = new int[count];
 		/* Store number variable into temporary variable. */

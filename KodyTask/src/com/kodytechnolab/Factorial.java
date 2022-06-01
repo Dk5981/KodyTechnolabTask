@@ -16,12 +16,12 @@ public class Factorial {
 		System.out.println("Enter the Number :: ");
 		int number = sc.nextInt();
 
+		/* Iterate for loop from 1 to number variable. */
 		for (int i = 1; i <= number; i++) {
 			fact = fact * i;
 		}
 
 		System.out.println("Factorial of " + number + " is :: " + fact);
-
 		sc.close();
 	}
 }

@@ -21,11 +21,10 @@ public class Armstrong {
 
 		/* count the digits of the number variable. */
 		String count = String.valueOf(number);
-
 		int length = Integer.valueOf(count.length());
-
 		int fix = length;
 
+		/* Iterate loop while number is greater than zero. */
 		while (number > 0) {
 			int f = 1;
 			rem = number % 10;

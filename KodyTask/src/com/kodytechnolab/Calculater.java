@@ -11,7 +11,7 @@ public class Calculater {
 
 		sc = new Scanner(System.in);
 
-		/*Stores the operator symbol in op variable entered by User.*/
+		/* Stores the operator symbol in op variable entered by User. */
 		String op = "";
 
 		/*
@@ -20,7 +20,6 @@ public class Calculater {
 		 */
 		System.out.println("Enter the Value of Number 1 :: ");
 		int no1 = sc.nextInt();
-
 		System.out.println("Enter the value of number 2 :: ");
 		int no2 = sc.nextInt();
 
