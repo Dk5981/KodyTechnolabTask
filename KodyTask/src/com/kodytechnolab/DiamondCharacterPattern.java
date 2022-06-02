@@ -1,6 +1,11 @@
 /*This Program print DiamondCharacter Pattern from A to F. */
 package com.kodytechnolab;
 
+/**
+ * 
+ * @author Lenovo
+ *
+ */
 public class DiamondCharacterPattern {
 
 	public static void main(String[] args) {
